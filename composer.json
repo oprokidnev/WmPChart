@@ -1,0 +1,26 @@
+{
+    "name": "oprokidnev/wm-p-chart",
+    "description": "pChart module for Zend Framework 2",
+    "type": "library",
+    "keywords": [],
+    "homepage": "",
+    "authors": [
+        {
+            "name": "Andrey Oprokidnev",
+            "email": "aa@oprokidnev.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.6",
+        "zendframework/zendframework": "2.*",
+        "webmotor/wm-registry": "master"
+    },
+    "autoload": {
+        "psr-0": {
+            "WmPChart": "src/"
+        },
+        "classmap": [
+            "./autoload_classmap.php"
+        ]
+    }
+}
